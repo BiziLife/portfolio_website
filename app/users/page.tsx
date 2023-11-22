@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 
@@ -5,7 +6,7 @@ const Userpage = () => {
   return (
     <div>
        <h1>page</h1> 
-       <a href='../'>Home</a>
+       <Link href='../'>Home</Link>
     </div>
     
   )
