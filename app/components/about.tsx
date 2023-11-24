@@ -11,9 +11,6 @@ const About: React.FC = () => {
             <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
             <button className="btn bg-blue-600 text-white">Get Started</button>
           </div>
-          <div>
-            <Image src="/Me.png" alt="img" width={400} height={400} />
-          </div>
         </div>
       </div>
     </div>
