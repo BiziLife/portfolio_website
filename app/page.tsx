@@ -10,7 +10,6 @@ const page: React.FC = () => {
       <main className=''>
       <Home />
       <About />
-      <Projects />
       <Footer />
       
       </main>
