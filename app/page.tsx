@@ -8,7 +8,7 @@ const page: React.FC = () => {
   return (
     <div>
       <main>
-      <h1>hello</h1>
+       <Home />
       
       </main>
     </div>
