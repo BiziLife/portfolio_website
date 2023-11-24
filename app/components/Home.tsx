@@ -1,22 +1,27 @@
 'use client';
 import React from 'react'
-import backgroundImage from '../../public/HomePage.png';
 
-const Home = () => {
-  const styles = { background: `url(${backgroundImage}) center/cover no-repeat fixed`, minHeight: '100vh' };
-
+const Home: React.FC = () => {
   return (
     <div>
-      <div className="hero min-h-screen" style={styles}>
-            <div className="hero-overlay bg-opacity-60"></div>
-            <div className="hero-content text-center text-neutral-content">
-                <div className="max-w-md">
-                <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
-                <p className="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                <button className="btn btn-primary">Get Started</button>
-                </div>
+      <div className="hero min-h-screen bg-gray-900">
+        <div className="hero-overlay bg-opacity-60"></div>
+        
+        <div className="hero-content flex justify-between items-center text-neutral-content">
+          <div className="max-w-md">
+            <h1 className="mb-5 text-3xl font-bold">Hello I'm</h1>
+            <h1 className="mb-5 text-5xl font-bold text-green-400">Tyler Sackel</h1>
+            <p className="mb-5">
+              I currently go to Liberty University studying computer science, with a minor in graphic design.
+            </p>
+            <button className="btn btn-primary">About Me</button>
+          </div>
+          
+          <div>
+            <img src="#" alt="img" />
+          </div>
         </div>
-        </div>
+      </div>
     </div>
   )
 }
