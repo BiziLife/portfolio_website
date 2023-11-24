@@ -4,7 +4,7 @@ import React from 'react'
 const Nav = () => {
   return (
     <div>
-      <div className='navbar bg-base-100 fixed top-0 w-full z-50'>
+      <div className='navbar m-0 p-0 bg-base-100 fixed top-0 w-full z-50'>
         <div className="navbar bg-neutral text-neutral-content">
             <div className="navbar-start">
               <div className="dropdown">
