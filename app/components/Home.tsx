@@ -9,7 +9,7 @@ const Home: React.FC = () => {
         
         <div className="hero-content flex justify-between items-center text-neutral-content">
           <div className="max-w-md">
-            <h1 className="mb-5 text-3xl font-bold">Hello I'm</h1>
+            <h1 className="mb-5 text-3xl font-bold">Hello Im</h1>
             <h1 className="mb-5 text-5xl font-bold text-green-400">Tyler Sackel</h1>
             <p className="mb-5"> I currently go to Liberty University studying computer science, with a minor in graphic design </p>
             <button className="btn btn-primary">About Me</button>
@@ -19,5 +19,4 @@ const Home: React.FC = () => {
     </div>
   )
 }
-
 export default Home
