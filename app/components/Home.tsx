@@ -1,23 +1,9 @@
-'use client';
 import React from 'react'
 
-
-const Home: React.FC = () => {
+const Home = () => {
   return (
-    <div>
-      <div className="hero min-h-screen bg-gray-900">
-        <div className="hero-overlay bg-opacity-60">
-            <div className="hero-content flex justify-between items-center text-neutral-content">
-              <div className="max-w-md">
-                <h1 className="mb-5 text-3xl font-bold">Hello Im</h1>
-                <h1 className="mb-5 text-5xl font-bold text-green-400">Tyler Sackel</h1>
-                <p className="mb-5"> I currently go to Liberty University studying computer science, with a minor in graphic design </p>
-                <button className="btn btn-primary">About Me</button>
-              </div>
-            </div>
-          </div>
-        </div>
-    </div>
+    <div>Home</div>
   )
 }
+
 export default Home
