@@ -16,10 +16,6 @@ const Home: React.FC = () => {
             </p>
             <button className="btn btn-primary">About Me</button>
           </div>
-          
-          <div>
-            <img src="#" alt="img" />
-          </div>
         </div>
       </div>
     </div>
