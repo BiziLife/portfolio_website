@@ -9,19 +9,19 @@ const Projects: React.FC = () => {
   };
   return (
     <div>
-       <div role="tablist" className="tabs tabs-lifted">
-        <input type="radio" name="my_tabs_2" role="tab"  className="tab"  aria-label="Tab 1" checked={selectedTab === 1}  onChange={() => handleTabChange(1)} />
-        <div role="tabpanel" className="tab-content bg-base-100 border-base-300 rounded-box p-6">
+       <div role="tablist" className="tabs tabs-lifted bg-slate-800">
+        <input type="radio" name="my_tabs_2" role="tab"  className="tab bg-slate-600"  aria-label="Tab 1" checked={selectedTab === 1}  onChange={() => handleTabChange(1)} />
+        <div role="tabpanel" className="tab-content bg-slate-700 p-6 text-white">
           <h1>Tab content 1</h1>
         </div>
 
-        <input  type="radio" name="my_tabs_2" role="tab" className="tab" aria-label="Tab 2" checked={selectedTab === 2} onChange={() => handleTabChange(2)} />
-        <div role="tabpanel" className="tab-content bg-base-100 border-base-300 rounded-box p-6">
+        <input  type="radio" name="my_tabs_2" role="tab" className="tab bg-slate-600" aria-label="Tab 2" checked={selectedTab === 2} onChange={() => handleTabChange(2)} />
+        <div role="tabpanel" className="tab-content bg-slate-700 p-6 text-white">
           <h1>Tab content 2</h1>
         </div>
 
-        <input type="radio" name="my_tabs_2" role="tab" className="tab" aria-label="Tab 3" checked={selectedTab === 3} onChange={() => handleTabChange(3)} />
-        <div role="tabpanel" className="tab-content bg-base-100 border-base-300 rounded-box p-6">
+        <input type="radio" name="my_tabs_2" role="tab" className="tab bg-slate-600 text-white" aria-label="Tab 3" checked={selectedTab === 3} onChange={() => handleTabChange(3)} />
+        <div role="tabpanel" className="tab-content bg-slate-700 p-6 text-white">
           <h1>Tab content 3</h1>
         </div>
       </div>
