@@ -11,7 +11,7 @@ const Home: React.FC = () => {
           <div className="max-w-md">
             <h1 className="mb-5 text-3xl font-bold">Hello Im</h1>
             <h1 className="mb-5 text-5xl font-bold text-green-400">Tyler Sackel</h1>
-            <p className='m-5'>I&apos;m a student at Liberty University</p>
+            <p className='mb-5'>I&apos;m a student at Liberty University</p>
             <button className="btn btn-primary">About Me</button>
           </div>
           <div>
