@@ -1,12 +1,12 @@
 'use client';
 import React from 'react'
 
+
 const Home: React.FC = () => {
   return (
     <div>
       <div className="hero min-h-screen bg-gray-900">
         <div className="hero-overlay bg-opacity-60"></div>
-        
         <div className="hero-content flex justify-between items-center text-neutral-content">
           <div className="max-w-md">
             <h1 className="mb-5 text-3xl font-bold">Hello Im</h1>

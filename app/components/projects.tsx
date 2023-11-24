@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 
 const Projects: React.FC = () => {
-    const [selectedTab, setSelectedTab] = useState<number>(1); // State to track selected tab
+    const [selectedTab, setSelectedTab] = useState<number>(1);
 
     const handleTabChange = (tabNumber: number) => {
      setSelectedTab(tabNumber);
