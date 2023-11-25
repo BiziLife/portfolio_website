@@ -1,7 +1,7 @@
 'use client';
 import React from 'react';
 import Image from 'next/image';
-
+import { Link } from 'react-scroll';
 
 const Home: React.FC = () => {
   const scrollToAbout = () => {
