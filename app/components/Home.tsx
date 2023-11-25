@@ -3,13 +3,6 @@ import React from 'react';
 import Image from 'next/image';
 
 const Home: React.FC = () => {
-  const scrollToAbout = () => {
-    const aboutSection = document.getElementById('about');
-    if (aboutSection) {
-      aboutSection.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
-
   return (
     <div>
       <div className="hero min-h-screen bg-gray-900 flex justify-center items-center">
@@ -26,6 +19,7 @@ const Home: React.FC = () => {
           <div className="lg:hidden bg-slate-800 flex justify-center max-w-sm rounded-lg shadow-xl ml-24">
             <Image src="/Me.png" alt="img" width={230} height={230} />
           </div>
+
         </div>
       </div>
     </div>
