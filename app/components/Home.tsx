@@ -1,7 +1,7 @@
 'use client';
 import React from 'react';
 import Image from 'next/image';
-import { Link } from 'react-scroll';
+import { Link as ScrollLink } from 'react-scroll';
 
 const Home: React.FC = () => {
   const scrollToAbout = () => {
@@ -19,7 +19,7 @@ const Home: React.FC = () => {
             <h1 className="lg:text-4xl md:text-4xl sm:text-lg font-bold ">Hello Im</h1>
             <h1 className="my-2 lg:text-4xl md:text-4xl sm:text-2xl  font-bold text-green-500">TYLER SACKEL</h1>
             <h2 className="lg:mb-36 lg:text-2xl md:text-white md:text-base sm:text-base sm:mb-32 text-white">I love creating video games</h2>
-            <Link to="about" smooth={true} duration={500} className="btn bg-blue-600 text-white lg:text-lg lg:w-48 md:text-base md:h-6 md:w-36 hover:bg-slate-800 transform hover:scale-110  transition-transform duration-300" onClick={scrollToAbout}> About Me </Link>
+            <ScrollLink to="about" smooth={true} duration={500} className="btn bg-blue-600 text-white lg:text-lg lg:w-48 md:text-base md:h-6 md:w-36 hover:bg-slate-800 transform hover:scale-110  transition-transform duration-300" onClick={scrollToAbout}> About Me </ScrollLink>
           </div>
           <div className="hidden bg-slate-800 lg:flex justify-center max-w-sm rounded-lg shadow-xl ml-32 lg:ml-32 lg:mr-8">
              <Image src="/Me.png" alt="img" width={300} height={300} />
