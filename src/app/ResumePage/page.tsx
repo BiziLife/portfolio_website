@@ -1,5 +1,5 @@
-import Image from "next/image";
-import Navbar from "@/components/navbar.js";
+import Navbar from "@/components/navbar";
+
 
 export default function Home() {
   return (
@@ -8,7 +8,7 @@ export default function Home() {
       < Navbar />
       {/*This will be the homepage of our website */}
       <main className="">
-        <h1>Homepage</h1>
+        <h1> Resume </h1>
       </main>
     </div>
     
