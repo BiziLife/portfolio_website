@@ -6,9 +6,9 @@ export default function Navbar() {
             <a href="/" className="text-5xl"> Tyler Sackel </a>
 
             <ul className="flex space-x-4">
-                <li><a href="/BlogPage">Blog</a></li>
-                <li><a href="/ProjectsPage">Projects</a></li>
-                <li><a href="/ResumePage">Resume</a></li>
+                <li><a href="/BlogPage"> Blog</a></li>
+                <li><a href="/ProjectsPage"> Projects</a></li>
+                <li><a href="/ResumePage"> Resume</a></li>
             </ul>
         </div>
     )
