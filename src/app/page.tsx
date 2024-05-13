@@ -9,8 +9,10 @@ export default function Home() {
       {/*This will be the homepage of our website */}
       <main className="px-5 bg-white">
         <div>
-         <p className="text-4xl mt-10 font-bold"> Hi, I'm Tyler </p>
-         
+         <p className="text-4xl mt-10 font-bold"> Hi, I&apos'm Tyler </p>
+         {/*Add image here*/}
+         <p></p>
+
          
         </div>
         <br />
