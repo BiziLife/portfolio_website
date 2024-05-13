@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@import url("https://use.typekit.net/jsd3bqv.css");
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -18,12 +21,13 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+}
+
+.loos-condensed-font {
+  font-family: "Loos ExtraWide", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+
 }
 
 @layer utilities {
@@ -31,3 +35,5 @@ body {
     text-wrap: balance;
   }
 }
+
+
