@@ -1,5 +1,6 @@
 import Navbar from "@/components/navbar";
 
+
 export default function Home() {
   return (
     <div className="mx-auto max-w-screen-lg">
@@ -7,10 +8,11 @@ export default function Home() {
       < Navbar />
       {/*This will be the homepage of our website */}
       <main className="px-5 bg-white">
-        <br />
-        <br />
-        <br />
-        <br />
+        <div>
+         <p className="text-4xl mt-10 font-bold"> Hi, I'm Tyler </p>
+         
+         
+        </div>
         <br />
         <br />
         <br />
