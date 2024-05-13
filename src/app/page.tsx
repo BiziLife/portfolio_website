@@ -9,6 +9,7 @@ export default function Home() {
       {/*This will be the homepage of our website */}
       <main className="">
         <h1>Homepage</h1>
+        <h1> Hello </h1>
       </main>
     </div>
     
