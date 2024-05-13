@@ -7,9 +7,9 @@ export default function Navbar(): JSX.Element {
                 <a href="/" className="text-2xl loos-condensed-font">Tyler Sackel</a>
 
                 <ul className="flex space-x-4 text-base">
-                    <li><a href="/BlogPage">Blog</a></li>
-                    <li><a href="/ProjectsPage">Projects</a></li>
-                    <li><a href="/ResumePage">Resume</a></li>
+                    <li><a href="/BlogPage" className="hover:text-green-500 hover:font-bold">Blog</a></li>
+                    <li><a href="/ProjectsPage" className="hover:text-green-500 hover:font-bold"> Projects</a></li>
+                    <li><a href="/ResumePage" className="hover:text-green-500 hover:font-bold"> Resume</a></li>
                 </ul>
             </div>
         </>
