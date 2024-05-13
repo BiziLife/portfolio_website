@@ -1,15 +1,49 @@
-import Image from "next/image";
-import Navbar from "@/components/navbar.js";
+import Navbar from "@/components/navbar";
 
 export default function Home() {
   return (
-    <div className="">
+    <div className="mx-auto max-w-screen-lg">
       {/*I want the navigation bar here*/}
       < Navbar />
       {/*This will be the homepage of our website */}
-      <main className="">
-        <h1>Homepage</h1>
-        <h1> Hello </h1>
+      <main className="px-5">
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
       </main>
     </div>
     
