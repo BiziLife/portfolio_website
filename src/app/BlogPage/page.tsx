@@ -7,7 +7,7 @@ export default function Home() {
       {/*I want the navigation bar here*/}
       < Navbar />
       {/*This will be the homepage of our website */}
-      <main className="">
+      <main className="bg-white">
         <h1> Blogs </h1>
       </main>
     </div>
