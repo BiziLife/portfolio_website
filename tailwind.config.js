@@ -5,6 +5,7 @@ module.exports = {
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
     "./*.{php,html,js}",
+    "./wp-admin/*.{php,html,js}",
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
 
   ],
