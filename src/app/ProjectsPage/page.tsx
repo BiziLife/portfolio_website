@@ -34,9 +34,9 @@ export default function ProjectPage(): JSX.Element {
   ];
 
   return (
-    <div className="pt-5">
+    <div className="mx-auto max-w-screen-lg pt-5">
       <Navbar />
-      <div className="max-w-screen-lg mx-auto px-5 py-10">
+      <div className="px-5 py-10">
         {/* Projects Page Title */}
         <h1 className="text-4xl font-bold text-center mb-8">My Projects</h1>
 

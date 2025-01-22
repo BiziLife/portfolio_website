@@ -3,9 +3,9 @@ import Navbar from "@/components/navbar";
 
 export default function ResumePage(): JSX.Element {
   return (
-    <div>
+    <div className="mx-auto max-w-screen-lg">
       <Navbar /> 
-      <div className="max-w-screen-lg mx-auto px-5 py-10">
+      <div className="px-5 py-10">
         {/* Page Title */}
         <h1 className="text-4xl font-bold text-center mb-8">My Resume</h1>
         
