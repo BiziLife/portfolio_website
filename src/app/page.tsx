@@ -1,5 +1,4 @@
 import Navbar from "@/components/navbar";
-import { Button } from "@/components/ui/Button";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 export default function Home() {

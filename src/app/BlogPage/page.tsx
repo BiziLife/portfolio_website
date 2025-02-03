@@ -13,28 +13,11 @@ export default function BlogPage(): JSX.Element {
     },
     {
       id: 2,
-      title: "Top 5 Projects to Improve Your Coding Skills",
-      excerpt:
-        "Explore these fun and challenging projects to take your coding to the next level.",
-      date: "January 15, 2025",
-      link: "/blog/top-5-projects",
-    },
-    {
-      id: 3,
-      title: "Why Learning Data Structures is Essential",
-      excerpt:
-        "Understanding data structures is crucial for solving complex problems efficiently.",
-      date: "January 10, 2025",
-      link: "/blog/why-learn-data-structures",
-    },
-    {
-      id: 4,
-      title: "Why Learning Data Structures is Essential",
-      excerpt:
-        "Understanding data structures is crucial for solving complex problems efficiently.",
-      date: "January 10, 2025",
-      link: "/blog/why-learn-data-structures",
-    },
+      title: "How I Learn Discrete Math",
+      excerpt: "The most challenge class",
+      date: "Febuary 3, 2025",
+      link: "/blog/learning-discrete-math",
+    }, 
   ];
 
   return (
