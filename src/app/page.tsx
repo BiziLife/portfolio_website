@@ -70,6 +70,74 @@ export default function Home() {
         </section>
       </main>
 
+      <section className="mt-12">
+        <h2 className="text-3xl font-bold text-center text-gray-800">Projects</h2>
+        
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
+          {/* Project 1 */}
+          <div className="card bg-base-100 shadow-xl hover:scale-105 transition-transform">
+            <div className="card-body">
+              <h3 className="card-title">Church Website</h3>
+              <p>A modern church website with live streaming and donation features.</p>
+              <div className="card-actions justify-end">
+                <a href="https://github.com/yourgithub/project2" className="btn btn-primary">View on GitHub</a>
+              </div>
+            </div>
+          </div>
+          {/* Project 2 */}
+          <div className="card bg-base-100 shadow-xl hover:scale-105 transition-transform">
+            <div className="card-body">
+              <h3 className="card-title">Church Website</h3>
+              <p>A modern church website with live streaming and donation features.</p>
+              <div className="card-actions justify-end">
+                <a href="https://github.com/yourgithub/project2" className="btn btn-primary">View on GitHub</a>
+              </div>
+            </div>
+          </div>
+          {/* Project 3 */}
+          <div className="card bg-base-100 shadow-xl hover:scale-105 transition-transform">
+            <div className="card-body">
+              <h3 className="card-title">Church Website</h3>
+              <p>A modern church website with live streaming and donation features.</p>
+              <div className="card-actions justify-end">
+                <a href="https://github.com/yourgithub/project2" className="btn btn-primary">View on GitHub</a>
+              </div>
+            </div>
+          </div>
+          {/* Project 4 */}
+          <div className="card bg-base-100 shadow-xl hover:scale-105 transition-transform">
+            <div className="card-body">
+              <h3 className="card-title">Church Website</h3>
+              <p>A modern church website with live streaming and donation features.</p>
+              <div className="card-actions justify-end">
+                <a href="https://github.com/yourgithub/project2" className="btn btn-primary">View on GitHub</a>
+              </div>
+            </div>
+          </div>
+          {/* Project 5 */}
+          <div className="card bg-base-100 shadow-xl hover:scale-105 transition-transform">
+            <div className="card-body">
+              <h3 className="card-title">Church Website</h3>
+              <p>A modern church website with live streaming and donation features.</p>
+              <div className="card-actions justify-end">
+                <a href="https://github.com/yourgithub/project2" className="btn btn-primary">View on GitHub</a>
+              </div>
+            </div>
+          </div>
+          {/* Project 6 */}
+          <div className="card bg-base-100 shadow-xl hover:scale-105 transition-transform">
+            <div className="card-body">
+              <h3 className="card-title">Church Website</h3>
+              <p>A modern church website with live streaming and donation features.</p>
+              <div className="card-actions justify-end">
+                <a href="https://github.com/yourgithub/project2" className="btn btn-primary">View on GitHub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
       {/* Footer */}
       <footer className="text-center mt-10 p-4 text-gray-500 border-t border-gray-200">
         <p>&copy; 2025 Tyler Sackel. All rights reserved.</p>
